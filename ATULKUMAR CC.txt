@@ -1,0 +1,44 @@
+ATUL KUMAR 
+Roll Number : AUFS016069
+
+                            CODING CHALLANGE 
+
+
+1.) GIT PULL -> The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+                1.) Updates the current local working branch (currently checked out branch)
+                2.)Updates the remote tracking branches for all other branches.
+                command - # Pull from specific branch --- "git pull REMOTE-NAME BRANCH-NAME"
+
+2.) GIT PUSH -) The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
+               command - git checkout master
+               git fetch origin master
+               git rebase -i origin/master
+               # Squash commits, fix up commit messages etc.
+               git push origin master.
+
+3.) GIT MERGE -)  The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+                  COMMAND - git merge <branch name you want to merge>
+
+4.) GIT LOG -) The Git Log tool allows you to view information about previous commits that have occurred in a project.
+              COMMAND- <git log --all>
+
+5.) GIT STATUS -) The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.
+                  command - <git status>
+
+6.) GIT COMMIT -) In Git, commit is the term used for saving changes. Git does not add changes to a commit automatically. You need to indicate which file and changes need to be saved before running the Git commit command. The commit command does not save changes in remote servers, only in the local repository of Git.
+                  COMMAND - <git commit - m "any message">
+
+7.) GIT INIT -) git init is one way to start a new project with Git. ... That directory stores all of the objects and refs that Git uses and creates as a part of your project's history.
+                The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+                command - <cd /path/to/code \ git init \ git add . \ git commit>
+                          <git init --bare /path/to/repo.git>
+                          <mkdir -p /path/to/template \ echo "Hello World" >> /absolute/path/to/template/README \ git init /new/repo/path --template=/absolute/path/to/template \ cd /new/repo/path \ cat /new/repo/path/README>
+
+8.) GIT CLONE -) git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository.
+                COMMAND - git clone ssh://john@example.com/path/to/my-project.git cd my-project # Start working on the project
+
+9.) GIT BRANCH -) Git branches are effectively a pointer to a snapshot of your changes. ... Instead of copying files from directory to directory, Git stores a branch as a reference to a commit.
+                 command - <git branch -D <branch name>.
+
+10.) GIT CHECKOUT -) In Git, the term checkout is used for the act of switching between different versions of a target entity. It checks the branches and updates the files in the working directory.
+                    COMMAND - <git checkout master>
